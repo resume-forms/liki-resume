@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body
+{
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+position: relative;
+width: 100%;
+max-width: 1000%;
+min-height: 100PX;
+background: #5f8aac;
+box-shadow: 0px 35px 55px rgba(78, 99, 139, 0.1);
+display: grid;
+grid-template-columns: 1fr 2fr;
+
+}
+.container .left-side
+{
+    position: relative;
+    background-color:#91c3da;
+    padding: 40px;
+}
+.profileText
+{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profileText .img
+{
+    position: relative;
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .imgBx img
+{
+    position: relative;
+    top: 0;
+    left:0;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profileText h2
+{
+    padding-top: 90%;
+    color: #39558e;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileText h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.title
+{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.contactinfo
+{
+    padding-left: 0%;
+    padding-top: 20px;
+}
+.contactinfo ul li{
+    position: relative;
+    list-style:circle;
+    color: rgb(114, 114, 234);
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 5px;
+}
+.contactinfo ul li span{
+    color: #6398e7;
+}
+.education .title
+{
+    padding-top: 40px;
+    color: hsla(0, 30%, 95%, 0.957);
+}
+.education ul li{
+    color: #6c9be2;
+    padding: 20px;
+}
+.education ul li h5
+{
+    font-weight: 800;
+    display: flex;
+
+}
+.education ul li h4
+{
+    font-weight: 100;
+    padding-top:5px;
+    padding-right: 10px;
+}
+
+.container .right-side{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.about
+{
+    margin-bottom: 50px;
+
+}
+.title2
+{
+   color: #b2d8ea;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   margin-bottom: 10px;
+   padding-top: 30px;
+   text-align: left;
+}
+.box
+{
+    
+    padding-top: 20px;
+}
+.lang-known
+{
+    padding: 20px;
+}
+.skills
+{
+    padding: 20px;
+}
+.lang-known ul li{
+    padding :2px;
+}
+.skills ul li{
+    padding :2px;
+    
+}
